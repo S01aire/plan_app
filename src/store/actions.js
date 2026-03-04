@@ -1,0 +1,19 @@
+export const ACTIONS = {
+  ADD_PLAN:       'ADD_PLAN',
+  UPDATE_PLAN:    'UPDATE_PLAN',
+  DELETE_PLAN:    'DELETE_PLAN',
+
+  CHECK_IN:       'CHECK_IN',
+  UNCHECK_IN:     'UNCHECK_IN',
+
+  SET_DATE:       'SET_DATE',
+  SET_THEME:      'SET_THEME',
+
+  IMPORT_DATA:    'IMPORT_DATA',
+  CLEAR_ALL_DATA: 'CLEAR_ALL_DATA',
+
+  // API state
+  LOAD_DATA:   'LOAD_DATA',
+  SET_LOADING: 'SET_LOADING',
+  SET_ERROR:   'SET_ERROR',
+}
